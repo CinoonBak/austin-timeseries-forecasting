@@ -25,15 +25,16 @@ After collecting the data I have made the following changes:
 * Set dates to rows and index for easier use in time series analysis.
 # EDA
 Here are some of the foundings: 
-* Starting from 2021, housing prices increased everywhere in Austin area significantlly.
-* Housing prices peaked from startin of 2021 to mid 
+* Starting from 2021, housing prices increased everywhere in Austin area significantly.
+* Housing prices peaked from startin of 2021 to July 2021.
+* Zipcode 78746 and 78703 are significantly more expensive than others which are located in the lake area and downtown Austin.
+
 <img width="1007" alt="Screen Shot 2023-04-23 at 2 15 45 PM" src="https://user-images.githubusercontent.com/118776460/233861108-432eb8fa-2fb7-4d11-93ad-36284e42d998.png">
 <img width="1004" alt="Screen Shot 2023-04-23 at 2 16 02 PM" src="https://user-images.githubusercontent.com/118776460/233861111-b44415d9-c683-46a4-9f9a-827bb2a56265.png">
 
-
 # Model Building
-I have built two decision tree to see the process of rules that are associated with the specified recovery score which are over 40% and over 90%.
-I also split the data into train and test sets with a test size of 33%.
+I have checked for seasonal decomposition and stationarity. 
+8
 # Model Performance
 I have used a loop to find the best criterion and max depth for the two model. 
 * Over 40% Model: 0.94
