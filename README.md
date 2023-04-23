@@ -49,5 +49,7 @@ SARIMA Time Series Model
 # Foundings
 * Top 5 3 Year ROI Zipcodes: 78704, 78734, 78725, 78705, 78732
 * Top 5 5 Year ROI Zipcodes: 78734, 78704, 78725, 78705, 78732
+<img width="522" alt="Screen Shot 2023-04-23 at 4 03 30 PM" src="https://user-images.githubusercontent.com/118776460/233866165-11a6e5cd-eaea-4365-855d-b9a8ac33aea7.png">
 * Worst 5 3 Year ROI Zipcodes: 78701, 78726, 78747, 78736, 78653
 * Worst 5 5 Year ROI Zipcodes: 78701, 78726, 78747, 78736, 78653
+<img width="571" alt="Screen Shot 2023-04-23 at 4 03 54 PM" src="https://user-images.githubusercontent.com/118776460/233866186-37a7c754-0336-4b83-9110-e64c249ca520.png">
