@@ -32,12 +32,22 @@ Here are some of the foundings:
 <img width="1007" alt="Screen Shot 2023-04-23 at 2 15 45 PM" src="https://user-images.githubusercontent.com/118776460/233861108-432eb8fa-2fb7-4d11-93ad-36284e42d998.png">
 <img width="1004" alt="Screen Shot 2023-04-23 at 2 16 02 PM" src="https://user-images.githubusercontent.com/118776460/233861111-b44415d9-c683-46a4-9f9a-827bb2a56265.png">
 
-# Model Building
+# Model Preprocessing
 I have checked for seasonal decomposition and stationarity. 
-8
-# Model Performance
-I have used a loop to find the best criterion and max depth for the two model. 
-* Over 40% Model: 0.94
-* Over 90% Model: 0.87
+* The first graphs shows that the data has an upward trend along with yearly seasonality.
+* The second picture shows that our data is non-stationary because we fail to reject our null hyphothese witha p-value of 0.49 where null hyphothesis is that the data is not stationary. 
 
-<img width="578" alt="Screen Shot 2023-02-27 at 9 24 37 AM" src="https://user-images.githubusercontent.com/118776460/227013030-f73b1748-8e88-4f9d-9bb6-8d787741fbd4.png">
+<img width="876" alt="Screen Shot 2023-04-23 at 2 17 14 PM" src="https://user-images.githubusercontent.com/118776460/233865810-51854811-8984-46e5-ab63-d8417263c1d6.png">
+<img width="757" alt="Screen Shot 2023-04-23 at 3 53 37 PM" src="https://user-images.githubusercontent.com/118776460/233865817-df7449f2-d3c5-4412-abd3-7dab8ac2585d.png">
+
+# Model Building
+SARIMA Time Series Model
+* Since our data is non-stationary and have a seasonal treand I've decided to use SARMIA.
+* Found the best parms of p,d,q,P,D,Q for each zipcode.
+* Tested on 3 random zipcode first.
+* Forecasted housing prices for 2026 and 2028 as well as the return of investment on each of the year. 
+# Foundings
+* Top 5 3 Year ROI Zipcodes: 78704, 78734, 78725, 78705, 78732
+* Top 5 5 Year ROI Zipcodes: 78734, 78704, 78725, 78705, 78732
+* Worst 5 3 Year ROI Zipcodes: 78701, 78726, 78747, 78736, 78653
+* Worst 5 5 Year ROI Zipcodes: 78701, 78726, 78747, 78736, 78653
